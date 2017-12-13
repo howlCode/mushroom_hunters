@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.intro {
+  width: 100%;
+  height: 670px;
+  margin: 0 auto;
+  background: url("img/basket-shrooms.jpeg") no-repeat;
+  background-size: cover;
+  background-color: brown;
+  opacity: 0.95;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 10px;
+ 
+}
+
+.greeting {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  margin-top: 175px;
+}
+
+.greeting h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.greeting h3 {
+  font-size: 1.5rem;
+}
+
+.greeting #learn-more {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: solid 2px #fff;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  padding: 15px;
+  width: 150px;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-top: 145px;
+  text-align: center;
+}
+
+.services hr {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 70px;
+  height: 3px;
+  text-align: center;
+  color: #9D653B;
+  background-color: #9D653B;
+}
+
+.services p {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 85%;
+  text-align: center;
+}
+
+/* Navigation Bar */
+@media screen and (min-width: 768px) {
+  nav ul {
+    display: flex;   
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+  }
+
+  nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.78rem;
+  }
+
+  nav li a:hover {
+    color: darkslategrey;
+  }
+
+  nav ul.logo {
+    flex-grow: 0.8;
+  }
+  
+  nav ul.logo a {
+    font-size: 1.2rem !important;
+    color: #fff !important;
+  }
+
+
+}
