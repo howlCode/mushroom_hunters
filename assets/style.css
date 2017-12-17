@@ -3,6 +3,23 @@
   font-family: 'Lato', sans-serif;
 }
 
+.title {
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-top: 145px;
+  text-align: center;
+}
+
+.divider {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 70px;
+  height: 3px;
+  text-align: center;
+  color: #9D653B;
+  background-color: #9D653B;
+}
+
 .intro {
   width: 100%;
   height: 670px;
@@ -57,21 +74,8 @@ nav a {
   width: 150px;
 }
 
-.services h2 {
-  font-size: 2rem;
-  margin: 0 auto;
-  margin-top: 145px;
-  text-align: center;
-}
-
-.services hr {
-  margin: 0 auto;
-  margin-top: 20px;
-  width: 70px;
-  height: 3px;
-  text-align: center;
-  color: #9D653B;
-  background-color: #9D653B;
+#learn-more:hover {
+  cursor: pointer;
 }
 
 .services p {
@@ -88,6 +92,7 @@ nav a {
   margin-bottom: 50px;
   margin-left: 15px;
   margin-right: 15px;
+  height: 450px;
 }
 
 .services-list h3 {
@@ -98,6 +103,19 @@ nav a {
   font-size: 45px;
   margin-bottom: 20px;
 }
+
+.education {
+  background-color: #F6F6F6;
+  padding-top: 25px;
+}
+
+.education p {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 85%;
+  text-align: center;
+}
+
 
 /* Nav Bar */
 nav ul {
