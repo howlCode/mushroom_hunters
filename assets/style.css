@@ -119,13 +119,6 @@
   text-align: center;
 }
 
-.button-list {
-  margin: 0 auto;
-  margin-top: 30px;
-  text-align: center;
-  width: 100%;
-}
-
 .gallery-container {
   width: 100%;
   margin: 0 auto;
@@ -144,6 +137,22 @@
   height: auto;
 }
 
+.about {
+  display: block;
+}
+
+.about-img-wrapper {
+
+}
+
+.about-img-wrapper img {
+  height: 500px;
+  width: 300px;
+}
+
+.about-text {
+
+}
 
 /* Nav Bar */
 
