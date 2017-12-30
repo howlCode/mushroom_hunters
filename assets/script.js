@@ -35,10 +35,19 @@ function animateValue(id, start, end, duration) {
 }
 
 function startCount() {
-	animateValue("happy", 0, 15, 500);
-	animateValue("working", 0, 325, 500);
-	animateValue("projects", 0, 19, 500);
-	animateValue("awards", 0, 13, 500);	
+	if (isInViewport(counter)) {
+		if (happy.innerHTML == 0 && working.innerHTML == 0 && projects.innerHTML == 0 && awards.innerHTML == 0){
+			animateValue("happy", 0, 15, 500);
+			animateValue("working", 0, 325, 500);
+			animateValue("projects", 0, 495, 500);
+			animateValue("awards", 0, 13, 500);	
+		} else {
+			happy.innerHTML = 15;
+			working.innerHTML = 325;
+			projects.innerHTML = 495;
+			awards.innerHTML = 13;
+		}		
+	}
 }
 
 function isInViewport(elem) {
@@ -51,4 +60,4 @@ function isInViewport(elem) {
 	);
 };
 
-window.onscroll = function() {if (isInViewport(counter)) {startCount();}}
+window.addEventListener('scroll', startCount, false);

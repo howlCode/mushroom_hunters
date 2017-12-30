@@ -20,6 +20,13 @@
   background-color: #9D653B;
 }
 
+.divider-text {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 85%;
+  text-align: center;
+}
+
 .intro {
   width: 100%;
   height: 670px;
@@ -78,13 +85,6 @@
   margin-top: -20px;
 }
 
-.services p {
-  margin: 0 auto;
-  margin-top: 30px;
-  width: 85%;
-  text-align: center;
-}
-
 .services-list {
   display: flex;
   margin-top: 70px;
@@ -112,13 +112,6 @@
   height: auto;
 }
 
-.education p {
-  margin: 0 auto;
-  margin-top: 30px;
-  width: 85%;
-  text-align: center;
-}
-
 .gallery-container {
   width: 100%;
   margin: 0 auto;
@@ -140,13 +133,6 @@
 .about {
   margin: 25px;
   padding-top: 100px;
-  width: 100%;
-}
-
-.about p {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
   width: 100%;
 }
 
@@ -183,8 +169,13 @@
   align-items: center;
 }
 
+.counter p {
+  color: #fff;
+}
+
 .counted {
   font-size: 3rem;
+  color: #fff;
 }
 
 /* Nav Bar */
