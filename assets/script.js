@@ -37,13 +37,13 @@ function animateValue(id, start, end, duration) {
 function startCount() {
 	if (isInViewport(counter)) {
 		if (happy.innerHTML == 0 && working.innerHTML == 0 && projects.innerHTML == 0 && awards.innerHTML == 0){
-			animateValue("happy", 0, 15, 500);
-			animateValue("working", 0, 325, 500);
+			animateValue("happy", 0, 225, 500);
+			animateValue("working", 0, 8500, 500);
 			animateValue("projects", 0, 495, 500);
 			animateValue("awards", 0, 13, 500);	
 		} else {
-			happy.innerHTML = 15;
-			working.innerHTML = 325;
+			happy.innerHTML = 225;
+			working.innerHTML = 8500;
 			projects.innerHTML = 495;
 			awards.innerHTML = 13;
 		}		

@@ -95,10 +95,6 @@
   height: 450px;
 }
 
-.services-list h3 {
-  margin-bottom: -20px;
-}
-
 .services-list i {
   font-size: 45px;
   margin-bottom: 20px;
@@ -176,6 +172,135 @@
 .counted {
   font-size: 3rem;
   color: #fff;
+}
+
+.headshots {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.headshot-img {
+  height: 100px;
+  width: 120px;
+  border-radius: 100%;
+}
+
+#name {
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.desc {
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.contact {
+  background-color: #F6F6F6;
+}
+
+.contact-info {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-icon {
+  color: #9D653B;
+  margin-bottom: 5px;
+}
+
+#message {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-box {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  margin: 10px auto;
+  text-align: left;
+  width: 75%;
+}
+
+textarea {
+  width: 75%;
+  height: 100px;
+}
+
+.submit-message {
+  margin-top: 25px;
+  width: 100%;
+}
+
+button {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+  text-align: center;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: solid 2px #9D653B;
+  color: #9D653B;
+  text-transform: uppercase;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #9D653B;
+  color: #F6F6F6;
+  transition: all 1s;
+}
+
+footer {
+  background-color: #F6F6F6;
+}
+
+.social-media-bar {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  height: 100px;
+  background-color: #9D653B;
+}
+
+.social-media-bar i {
+  color: #fff;
+  padding: 25px;
+  padding-top: 40px;
+  font-size: 30px;
+}
+
+.copyright {
+  background-color: #2F2A2A;
+  height: 50px;
+  magrin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.copyright p {
+  padding-top: 15px;
 }
 
 /* Nav Bar */
